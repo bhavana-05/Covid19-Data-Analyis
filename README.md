@@ -106,7 +106,9 @@ The analysis employed three major visualization techniques:
 
 ## Repository Structure
 ├── Data_analysis_Covid19_TamilNadu.ipynb # Main notebook
+
 ├── districtwise_abstract_of_cases_including_active_cases_discharges_and_deaths_in_tn_as_on_11_05_2021.csv # dataset
+
 └── README.md # This analysis report
 
 ## Data Disclaimer
