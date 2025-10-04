@@ -36,7 +36,7 @@ The analysis employed three major visualization techniques:
   - Active Cases vs New Cases: **0.989**  
   - New Cases vs Discharges: **0.970**  
 
-- **Interpretation**: COVID-19 spread and its effects followed highly predictable patterns. Districts with high new cases also experienced higher deaths and discharges.
+- COVID-19 spread and its effects followed highly predictable patterns. Districts with high new cases also experienced higher deaths and discharges.
 
 ### 2. Box Plot Analysis: Outlier Detection
 - **Outliers (New Cases on 11 May 2021):**  
@@ -47,7 +47,7 @@ The analysis employed three major visualization techniques:
 - **Outliers (Deaths on 11 May 2021):**  
   - Chennai: 92  
 
-- **Interpretation**: Chennai, Coimbatore, and Chengalpattu emerged as clear outliers, with urban districts bearing a significantly higher burden compared to rural ones.
+- Chennai, Coimbatore, and Chengalpattu emerged as clear outliers, with urban districts bearing a significantly higher burden compared to rural ones.
 
 ### 3. Line Plot Analysis: District Trends
 
@@ -79,7 +79,7 @@ The analysis employed three major visualization techniques:
 - Salem: 0  
 - Chengalpattu: +34
 
-#### Interpretation:  
+#### Observations:  
 - Chennai clearly dominated both **new cases and deaths**, establishing its role as the **epicenter**.  
 - Coimbatore and Chengalpattu were **secondary hotspots**.  
 - Some districts like Tiruvallur and Thoothukudi even reported decreases.
@@ -105,6 +105,8 @@ The analysis employed three major visualization techniques:
 - **Analysis Methods**: Correlation analysis, Outlier detection, Trend analysis  
 
 ## Repository Structure
+├── Plots # Folder with all plots
+
 ├── Data_analysis_Covid19_TamilNadu.ipynb # Main notebook
 
 ├── districtwise_abstract_of_cases_including_active_cases_discharges_and_deaths_in_tn_as_on_11_05_2021.csv # dataset
