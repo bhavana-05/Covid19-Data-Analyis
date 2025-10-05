@@ -26,7 +26,7 @@ The analysis employed three major visualization techniques:
 
 1. **Scatter Plots** – Studied correlations between new cases, deaths, discharges, and active cases.  
 2. **Box Plots** – Distribution analysis and outlier detection   
-3. **Line Plots** – Compared district-level case growth, deaths, and active case changes.
+3. **Bar Plots** – Compared district-level case growth, deaths, and active case changes.
 
 ## Detailed Analysis and Observations
 
@@ -49,7 +49,7 @@ The analysis employed three major visualization techniques:
 
 - Chennai, Coimbatore, and Chengalpattu emerged as clear outliers, with urban districts bearing a significantly higher burden compared to rural ones.
 
-### 3. Line Plot Analysis: District Trends
+### 3. Bar Plot Analysis: District Trends
 
 #### Top Districts with Highest New Cases (11 May 2021)
 1. Chennai – 7,466  
@@ -101,7 +101,7 @@ The analysis employed three major visualization techniques:
 ## Technical Implementation
 - **Language**: Python  
 - **Libraries**: Pandas, Matplotlib, NumPy  
-- **Plots Used**: Scatter, Box, Line  
+- **Plots Used**: Scatter, Box, Bar, Line  
 - **Analysis Methods**: Correlation analysis, Outlier detection, Trend analysis  
 
 ## Repository Structure
